@@ -1,0 +1,61 @@
+body{
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    background-color: blue;
+    height: 50px;
+
+}
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    margin: 0px 10px;
+
+}
+.nav1{
+    display: flex;
+    height: 70%;
+    width: 100%;
+
+}
+.main-content{
+
+    background-color: darkgreen;
+    width:300px;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+.sidebar{
+        width: 190px;
+        background-color: slateblue;
+        margin: 2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+.nav2{
+    display: flex;
+    width: 100%;
+    height: 30%;
+
+
+}
+.twin{
+background-color: peru;
+width: 244px;
+margin: 0px 2px 2px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.footer{
+    height: 50px;
+    background-color: royalblue;
+    
+}
