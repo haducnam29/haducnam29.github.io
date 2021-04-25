@@ -1,0 +1,172 @@
+body{
+    margin:0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+    width: 1000px;
+    font-family:Tahoma ;
+    font-size: 13px;
+
+}
+.header{
+    position: fixed;
+    width: 1000px;
+}
+
+.main{
+    background: cadetblue;
+    display: flex;
+    height: 40px;
+
+}
+li{
+    list-style: none;
+}
+.main-item{
+    width: fit-content;
+    width: 120px;
+    height: 40px;
+
+   
+}
+li.main-item:hover {
+    background: #3fb8e8;
+}
+li.main-item:hover .sub{
+    display: block;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#itemo{
+    position: relative;
+}
+.sub{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 110px;
+    margin-top: 5px;
+    height: 190px;
+    background-color: #3fb8e8;
+    display: none;
+
+}
+.sub-menu{
+    width: 150px;
+    height: 50px;
+    position: relative;
+
+
+}li.sub-menu:hover .item{
+    display: block;
+}
+.item{
+    position: absolute;
+    background-color: lightskyblue;
+    top: 0px;
+    left: 80px;
+    width: 50px;
+    height: 60px;
+    display: none;
+}
+.item3{
+    width: 50px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navi{
+    width: 1000px;
+    height: 200px;
+
+}
+#anh{
+    height: 200px;
+    width: 1000px;
+}
+
+.left{
+    width: 750px;
+    float: left;
+    background-color: cyan;
+    min-height: 400px;
+}
+.dispay{
+    margin: 0px;
+    padding: 0px;
+}
+.left ul li{
+    list-style: none;
+    clear: left;
+    float: left;
+    margin: 20px;
+}
+.left ul li img {
+    float: left;
+    margin-right: 10px;
+    width: 150px;
+    height: 150px;
+}
+.left ul li h2{
+    font-size: 14px;
+}
+
+.right{
+    width: 250px;
+    float: left;
+    background-color: darkkhaki;
+    height: 400px;
+    margin-top: 0px;
+
+}
+.menu-right2{
+    height: 260px;
+}
+.menu-right2 h3{
+    display: flex;
+    justify-content: center;
+}
+.right .menu-right ul{
+    margin: 0px;
+    padding: 0px;
+    height: 345px;
+}
+
+.right .menu-right ul li{
+    list-style: none;
+ 
+    height: 45px;
+}
+.right .menu-right h3{
+    background-color: blueviolet ;
+    height: 40px;
+    margin-top: 0px;
+
+}
+.right .menu-right img{
+    margin-left: 0px;
+    padding: 0px;
+}
+.fooder{
+    background-color: rgb(228, 222, 222);
+    height: 100px;
+    clear: left;
+}
+.fooder ul li{
+    float: left;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+
+    
+}.icon{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
