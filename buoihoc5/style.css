@@ -1,0 +1,406 @@
+.body{
+    margin:0px ;
+    padding: 0px;
+    box-sizing: border-box;
+    width: 1000px;
+    background-color: rgb(41, 38, 38);
+    height: 5000px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    height: 60px;
+    display: flex;
+    
+}
+.header-conten{
+    list-style: none;
+    display: flex;
+    flex-grow: 4;
+    padding-right: 20px;
+    position: relative;
+}
+.header-1{
+    color: azure;
+    height: 60px;
+    display: flex;
+   flex-grow: 1;
+   background-color:rgb(41, 38, 38) ;
+   position: relative;
+
+    
+}
+#idheader1{
+    flex-grow: 1 ;
+    color:azure ;
+    justify-content: center;
+    align-items: center;
+}
+ #idheader2{
+    background: chocolate;
+    color: azure;
+        overflow: hidden;
+}
+
+@keyframes phai{
+    0%{width: 0px;
+
+    }
+    70%{
+        width:150px;
+        
+    }
+    90%{
+        width: 130px;
+    }
+    100%{
+        width: 150px;
+    }
+}
+
+.orange2{
+    display: none;
+    position: absolute;
+    background-color: rgb(207, 75, 60);
+    opacity: 0.8;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+
+
+}
+#idheader2:hover .orange2{
+    display: block !important;
+    animation: phai 0.7s linear;
+}
+
+.header-1:hover{
+    color: chocolate;
+}
+.blog{
+    justify-content: start;
+    width: 110px;
+    height: 30px;
+    padding-left: 20px;
+}
+
+.header-1:hover .header-1-con{
+    display: block;
+
+}
+
+.header-1-con{
+    list-style: none;
+    position: absolute;
+    top: 60px;
+    background-color: darkslategray;
+    left: 0px;
+    display: none  ;
+    height: 100px;
+    width:110px;
+    padding-left: 20px;
+    
+    
+}
+.main-firt{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 50px;
+    
+}.main-firt-0{
+ width: 40%;
+ height: 700px;
+ flex-wrap: wrap;
+}
+
+.main-firt-01 {
+    color: azure ;
+    height: 300px;
+    width: 100%;
+    margin: 100px;
+    margin-left: 40px;
+}
+.main-firt-02{
+    color:azure  ;
+    height: 300px;
+    width: 100%;
+    margin: 100px;
+    margin-left: 40px;
+}
+.wa{
+    position: relative;
+
+}
+#watch{
+    width: 150px;
+    height: 40px;
+}
+.wa:hover .orange1{
+    animation: trai 0.7s linear;
+    display: block;
+}
+@keyframes trai{
+    0%{width: 0px;
+
+    }
+    70%{
+        width:150px;
+        
+    }
+    90%{
+        width: 130px;
+    }
+    100%{
+        width: 150px;
+    }
+}
+.orange1{
+    display: none;
+    position: absolute;
+    background-color: rgb(207, 75, 60);
+    opacity: 0.8;
+    height: 40px;
+    width: 150px;
+    top: 0px;
+    left: 0px;
+
+}
+.main-firt-1{
+    width: 60%;
+    height: 700px;
+    position: relative;
+}.main-firt-1 img{
+    width: 450px;
+    height: 600px;
+    padding: 70px;
+    border-radius: 40%;}
+   
+    
+.chu1{
+    color: red;
+    padding-left: 50px;
+    position: relative;
+
+}  
+.chu2{
+    color: red;
+    padding-left: 50px;
+    position: relative;
+}
+.main-firt .main-firt-0 .main-firt-02 > p::before{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 1px;
+    background: #f04e3c;
+    top: 6px;
+    left: 0px;
+}
+
+
+.chu3{
+    background-color: salmon;
+    color: azure;
+    height: 40px;
+    width: 150px;
+}
+.main-firt .main-firt-0 .main-firt-01 > p::before{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 1px;
+    background: #f04e3c;
+    top: 6px;
+    left: 0px;
+}
+
+
+.main-second{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    margin-top: 180px;
+}.main-second-left{
+    width: 50%;
+    height: 300px;
+    padding-left: 40px;
+    color: azure;
+
+}.main-second-right{
+    width: 50%;
+    height: 300px;
+    padding-left: 40px;
+    color:azure ;
+    padding-right: 40px;
+}
+.year{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.span{
+    font-size: 100px;
+}
+.main-third{
+    display: flex;
+    margin-bottom: 100px;
+    padding-left: 25px;
+}
+.blog01{
+    width: 31%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    color:azure ;
+
+}.blog001{
+    overflow: hidden;
+}
+.main-third .blog01 img{
+    width: 100%;
+    height: 100%;
+}
+.blog01 img:hover{
+    animation: bl 1.5s forwards;
+
+   
+
+}
+@keyframes bl{
+    100%{
+        transform: scale(1.2);
+    }
+}
+
+#icon{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+}
+
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    width: 32.3%;
+    position: relative;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    height: 50%;
+}
+
+.orange {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #dc1212;
+    opacity: 0;
+}
+
+.item:hover .orange {
+    animation: opacity-increa 1.5s forwards;
+}
+
+@keyframes opacity-increa {
+    0%{
+    }
+    100%{
+        opacity: 0.5;
+    }
+}
+
+.icon-top {
+    position: absolute;
+    top: 30px;
+    left: -35px;
+}
+.item:hover .icon-top {
+    animation: di-tu-trai-sang 1.5s forwards;
+}
+@keyframes di-tu-trai-sang {
+    0%{
+    }
+    100%{
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+}
+
+/* // phan title */
+.content {
+    position: absolute;
+    bottom: -100px;
+    left: 10px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-family: 'Orelega One', cursive;
+}
+.item:hover .content {
+    animation: di-tu-duoi-len 1.5s forwards;
+}
+@keyframes di-tu-duoi-len {
+    0%{
+    }
+    100%{
+        position: absolute;
+        bottom: 10px;
+    }
+}
+.main-four{
+    display: flex;
+    margin-left: 10px;
+}
+.main-four1{
+
+    display: flex;
+    flex-wrap: wrap;
+    color: azure;
+}
+#bran{
+    width:42%;
+}
+.brand{
+    width: 18%;
+    border: 1px solid rgb(136, 74, 74);
+    margin: 10px;
+    padding: 20px;
+
+}.get-start{
+    width: 100px;
+    height: 80px;
+    background-color: chocolate;
+    
+}
+.be{
+    padding-left: 25px;
+    padding-top: 30px;
+}.lentop{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 80px;
+    animation: top 3s;
+}@keyframes top{
+    100%{transform: none;}
+}
+
