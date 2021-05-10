@@ -1,0 +1,69 @@
+
+
+.heading{   
+
+     text-align:center;
+     
+}
+.img{
+    width: 20%;
+}
+.img img{
+    width: 160px;
+    height: 240px;
+
+}
+.dxv{
+    width: 60%;
+
+     display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+
+
+}
+.khoangtrang{
+    width:20%;
+}
+.phan2  {display: flex;
+
+
+}
+
+
+.phan3{
+
+    padding-left:60px;
+    text-align: justify;
+
+}
+.end1{
+    float: left;
+    width: 50%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+}
+.end2{
+    float: left;
+    width: 50%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+}
+.checkbox{
+    border: 2px;
+    border-style: solid;
+    padding-left: 17px;
+}
+.cangiua{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
