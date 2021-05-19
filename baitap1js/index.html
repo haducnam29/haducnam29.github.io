@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var arr = [12, 13, 45, 67, 445, 63, 758, 352,];
+        // var max = Math.max.apply(Math, arr);
+        // var min = Math.min.apply(Math, arr);
+        // document.write("Giá trị lớn nhất là " + max + "<br/>");
+        // document.write("Giá trị nhỏ nhất là " + min + "<br/>");
+
+        function timSoChanLe(vitri) {
+            if (arr[vitri] % 2 == 0) {
+                document.write(`so ${arr[vitri]} là số chẵn`)
+            } else {
+                document.write(`so ${arr[vitri]} là số lẻ`)
+            };
+        }
+        timSoChanLe(5);
+
+
+
+
+
+
+
+        // Bài 5: Cho 1 object gồm tên, tuổi, ngày tháng năm sinh.In ra màn hình dòng chữ gồm
+        //  "Xin chào, tôi tên là.. năm nay tổi... tuổi, rất vui được làm quen với bạn"
+        var thong_tin = {
+            name: 'nam',
+            tuoi: 24,
+            năm_sinh: 1996
+
+        }
+        var thong_tin
+        function hide(obj) {
+            alert(`xin chào, tôi tên là  ${obj.name} năm nay tôi ${obj.tuoi}`);
+        }
+        hide(thong_tin);
+
+// Cho 1 mảng có chiều dài bằng 5 (gồm 5 giá trị trong mảng)
+
+// in ra các type của phần tử
+
+// Note: sử dụng hàm typeof để check type. Ví dụ typeof 3 ->> 'number'
+var newArr =[12,"hello","",{name:'nam', age:25},[13,14]];
+function inGiaTri() {
+    for (var i = 0; i < newArr.length; i++) {
+        console.log(typeof(newArr[i]));
+    }
+}
+inGiaTri();
+
+
+
+
+
+    </script>
+</body>
+
+</html>
